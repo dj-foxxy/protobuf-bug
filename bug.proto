@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message InnerMessage {}
+
+message Message {
+  InnerMessage inner = 1;
+}
